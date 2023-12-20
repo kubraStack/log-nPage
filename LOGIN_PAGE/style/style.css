@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.card{
+    padding: 3rem 1rem ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-header{
+    background: none;
+}
+.form-control, 
+.logın{
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    height: 50px;
+}
+
+.card-footer{
+  
+    margin-top: 1rem;
+    border-radius: 1.5rem !important;
+    padding: 1rem;
+}
+
+.h-25{
+    height: 150px !important;
+}
+.w-25{
+    width: 150px !important;
+}
